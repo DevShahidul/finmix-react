@@ -5,9 +5,9 @@ const Password = () => {
 
 
     <div>
-        <label for="price" class="block text-sm font-medium leading-6 text-dark-title">Password</label>
-        <div class="relative mt-2">
-            <div class="pointer-events-none absolute inset-y-0 left-0 right-4 flex items-center pl-5">
+        <label for="price" className="block text-sm font-medium leading-6 text-dark-title">Password</label>
+        <div className="relative mt-2">
+            <div className="pointer-events-none absolute inset-y-0 left-0 right-4 flex items-center pl-5">
 
                  <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.6858 6.87272V5.08355C11.6858 2.98939 9.98746 1.29105 7.89329 1.29105C5.79913 1.28189 4.09413 2.97189 4.08496 5.06689V5.08355V6.87272" stroke="#79828D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,7 +22,7 @@ const Password = () => {
                 <path d="M15.5718 1.54102L2.42676 14.686" stroke="#99A6B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </div>
-            <input type="password" name="price" id="price" class="block w-full rou py-4 pl-12 pr-20 text-13 text-dark-text font-normal rounded-lg border bg-white border-border placeholder:text-dark-text leading-6" placeholder="Enter password"/>
+            <input type="password" name="price" id="price" className="block w-full rou py-4 pl-12 pr-20 text-13 text-dark-text font-normal rounded-lg border bg-white border-border placeholder:text-dark-text leading-6" placeholder="Enter password"/>
         </div>
     </div>
   )

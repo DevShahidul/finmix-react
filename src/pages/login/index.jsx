@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button,Input,Checkbox} from "../../component";
 import Logo from "../../assets/img/logo.png";
-import { ProfileIcon } from '../../component/icons';
+import { EmailIcon, EyeIcon, ProfileIcon } from '../../component/icons';
 const Login = () => {
   return (
     <div className=' container'>
@@ -13,9 +13,13 @@ const Login = () => {
                 <h1>Login</h1>
                 <p>Log back in below to see your business's financial health.</p>
                 <from>
-                  <Input type="email" label="Email" icon={<ProfileIcon width="24" height="24" />} name="email" id="email" placeholder="Enter email address"  />
-                  <Input type="password" label="Password" name="password" id="password" placeholder="Enter password"  />
-                  
+                  <Input type="email" label="Email" icon={< EmailIcon />} name="email" id="email" placeholder="Enter email address"  />
+                  <div className="relative">
+                    <Input type="password" label="Password" icon={<ProfileIcon />} name="password" id="password" placeholder="Enter password"  />
+                    <button className="absolute right-4 mt-4 top-1/2 -translate-y-1/2" type="button">
+                      <EyeIcon />
+                    </button>
+                  </div>
                   <Checkbox />
                   <Button />
                 </from>

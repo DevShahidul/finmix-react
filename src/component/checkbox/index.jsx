@@ -2,21 +2,21 @@ import React from 'react'
 
 const Checkbox = () => {
   return (
-    <div class="flex items-center text-13 font-normal leading-6 text-dark-text">
+    <div className="flex items-center text-13 font-normal leading-6 text-dark-text">
         <label
-            class="relative flex items-center p-3 rounded-full cursor-pointer"
+            className="relative flex items-center p-3 rounded-full cursor-pointer"
             for="checkbox"
             data-ripple-dark="true"
         >
             <input
             type="checkbox" name='checkbox'
-            class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-border-check transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity hover:border-dark-text  hover:before:opacity-10"
+            className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-border-check transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity hover:border-dark-text  hover:before:opacity-10"
             id="checkbox"
             />
-            <div class="absolute text-dark-text transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+            <div className="absolute text-dark-text transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-3.5 w-3.5"
+                className="h-3.5 w-3.5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 stroke="currentColor"
