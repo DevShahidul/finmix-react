@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button,Input,Checkbox} from "../../component";
 import Logo from "../../assets/img/logo.png";
-import { EmailIcon, EyeIcon, ProfileIcon } from '../../component/icons';
+import { EmailIcon, EyeIcon, ProfileIcon } from '../../icons';
 const Login = () => {
   return (
     <div className=' container'>
