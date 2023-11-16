@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
+  const {text} = props;
   return (
-    <button className=' bg-green w-full px-6.5 py-4 rounded-lg-10 text-white text-base leading-5 font-semibold'>Login</button>
+    <button className="bg-green w-full px-6.5 py-4 rounded-lg-10 text-white text-base leading-5 font-semibold">{text}</button> 
   )
 }
 
-export default Button
+export default Button;

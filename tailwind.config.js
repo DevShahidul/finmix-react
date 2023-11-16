@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       spacing: {
         '6.5': '1.625rem',
+        '2.5': '0.625rem',
       },
       colors: {
         'green':{
@@ -30,8 +31,10 @@ module.exports = {
         'sky':'#DBF5E7',
         'gray':{
           DEFAULT:'#E8EFF6',
-          '50':'#F2F6FA',
-          '100':'#C4CEFE',
+          'secondary-50':'#F2F6FA',
+          'secondary-100':'#C4CEFE',
+          'secondary-200':'#B9B9B9',
+          'secondary-300':'#6F6F6F',
         },
         'blue':{
           DEFAULT:'#4465FF',

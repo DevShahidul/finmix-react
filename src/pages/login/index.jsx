@@ -1,7 +1,7 @@
 import React from 'react'
-import {Button,Input,Checkbox} from "../../component";
+import {Button,Input,Checkbox,OthButton} from "../../component";
 import Logo from "../../assets/img/logo.png";
-import { EmailIcon, EyeIcon, ProfileIcon } from '../../icons';
+import { EmailIcon, EyeIcon, GoogleIcon, ProfileIcon , MacIcon, FacebookIcon, } from '../../icons';
 const Login = () => {
   return (
     <div className=' container'>
@@ -21,7 +21,12 @@ const Login = () => {
                     </button>
                   </div>
                   <Checkbox />
-                  <Button />
+                  <Button text="Login"/>
+                  <div className="flex items-center gap-6">
+                    <OthButton icon={<GoogleIcon />} text="Google"/>
+                    <OthButton icon={<FacebookIcon />} text="Facebook"/>
+                    <OthButton icon={<MacIcon />} text="Apple"/>
+                  </div>
                 </from>
             </div>
         </div>

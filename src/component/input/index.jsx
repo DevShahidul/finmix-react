@@ -9,7 +9,7 @@ const Input = (props) => {
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-5">
             {icon}
           </div> : null }
-            {icon ? <input type={type} name={name} id={id} className="block w-full py-4 pl-12 pr-20 text-13 text-dark-text font-normal rounded-lg border bg-white border-border placeholder:text-dark-text leading-6" placeholder={placeholder} /> : <input type={type} name={name} id={id} className="block w-full py-4 pl-4 pr-20 text-13 text-dark-text font-normal rounded-lg border bg-white border-border placeholder:text-dark-text leading-6" placeholder={placeholder} /> }
+          <input type={type} name={name} id={id} className="block w-full py-4 pl-12 pr-20 text-13 text-dark-text font-normal rounded-lg border bg-white border-border placeholder:text-dark-text leading-6" placeholder={placeholder} />
           
         </div>
     </div>
