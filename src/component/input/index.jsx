@@ -2,7 +2,7 @@ import React from 'react'
 const Input = (props) => {
   const {type,label,icon,name,id,placeholder } = props;
   return (
-    <div>
+    <div className="mb-6">
         {label ? <label htmlFor="price" className="block text-sm font-medium leading-6 text-dark-title">{label}</label> : null}
         <div className="relative mt-2">
           {icon ? 

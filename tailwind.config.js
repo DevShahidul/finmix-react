@@ -14,6 +14,10 @@ module.exports = {
       spacing: {
         '6.5': '1.625rem',
         '2.5': '0.625rem',
+        
+      },
+      maxHeight: {
+        '970': '60.625rem',
       },
       colors: {
         'green':{
@@ -31,6 +35,7 @@ module.exports = {
         'sky':'#DBF5E7',
         'gray':{
           DEFAULT:'#E8EFF6',
+          'secondary':'#C4C4C4',
           'secondary-50':'#F2F6FA',
           'secondary-100':'#C4CEFE',
           'secondary-200':'#B9B9B9',
@@ -52,7 +57,8 @@ module.exports = {
         'border':{
           DEFAULT:'#DDE1E5',
           'check':'#99A6B9',
-        }
+        },
+        'theme':'#142550',
       },
       borderRadius: {
         'lg-10': '10px',
@@ -61,6 +67,9 @@ module.exports = {
       fontSize: {
         13: '0.813rem',
       },
+      padding: {
+        '137': '8.563rem',
+      }
 
     },
   },
