@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import FinmixLogo from "../../assets/img/finmix-logo.png";
 import Logo from "../../assets/img/logo.png";
 import {Button,Input,Checkbox,OthButton} from "../../component";
-import { EmailIcon, EyeIcon, GoogleIcon, Password, MacIcon, FacebookIcon } from '../../icons';
-const Login = () => {
+import { EmailIcon, EyeIcon, GoogleIcon, ProfileIcon , MacIcon, FacebookIcon, Password, } from '../../icons';
+const Signup = () => {
   return (
     <div className=" lg:flex items-center justify-center w-full ">
       <div className="relative flex flex-col justify-between w-full lg:w-1/2 py-12 px-6 md:px-14 min-h-[500px] md:h-screen bg-theme">
@@ -24,9 +24,10 @@ const Login = () => {
       </div>
       <div className="flex justify-center items-center w-full lg:w-1/2 py-12 px-6 md:px-14 2xl:px-137 ">
         <div className=" w-full sm:min-w-[446px]">
-          <h1 className="text-dark-title text-3xl font-bold mb-4">Login</h1>
-          <p className="text-dark-text text-sm font-normal leading-6 mb-10">Log back in below to see your business's financial health.</p>
+          <h1 className="text-dark-title text-3xl font-bold mb-4">Create your free account</h1>
+          <p className="text-dark-text text-sm font-normal leading-6 mb-10">Create your account by filled out the following field.</p>
           <from>
+            <Input type="name" label="Full Name" icon={< ProfileIcon />} name="name" id="name" placeholder="Enter your full name"  />
             <Input type="email" label="Email" icon={< EmailIcon />} name="email" id="email" placeholder="Enter email address"  />
             <div className="relative">
               <Input type="password" label="Password" icon={<Password />} name="password" id="password" placeholder="Enter password"  />
@@ -34,11 +35,17 @@ const Login = () => {
                 <EyeIcon />
               </button>
             </div>
-            <div className="flex items-center justify-between">
-              <Checkbox label="Remember me"/>
-              <a className="text-blue-50 text-13 leading-5" href="index.html">Forgot Password ?</a>
+            <div className="relative">
+              <Input type="password" label="Re-type password" icon={<Password />} name="password" id="password" placeholder="Re-type password"  />
+              <button className="absolute right-4 mt-4 top-1/2 -translate-y-1/2" type="button">
+                <EyeIcon />
+              </button>
             </div>
-            <Button className="my-7" text="Login"/>
+            <div className="flex items-center flex-wrap">
+              <Checkbox label="By signing up, you agree to the"/>
+              <a className="text-13 leading-5 text-green ml-1" href="index.html">terms and conditions</a>
+            </div>
+            <Button className="my-7" text="Sign Up"/>
           </from>
           <div className="relative mb-3 text-center before:content-[''] before:w-full before:h-px before:absolute before:left-0 before:top-1/2  before:bg-gray-secondary">
             <span className="relative z-10 bg-white px-5 text-dark-text font-normal leading-5">or Login with</span>
@@ -48,11 +55,11 @@ const Login = () => {
             <OthButton icon={<FacebookIcon />} text="Facebook"/>
             <OthButton icon={<MacIcon />} text="Apple"/>
           </div>
-          <p className="text-dark-text text-13 leading-5 mt-7">Don't have an account yet?  <Link className="text-green" to="/sign-up">Sign up here</Link> </p>
+          <p className="text-dark-text text-13 leading-5 mt-7">Already a user?<Link className="text-green" to="/pass-reset">Log in here</Link> </p>
         </div>
       </div>
     </div>
   )
 }
 
-export default Login;
+export default Signup;
