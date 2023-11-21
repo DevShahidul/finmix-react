@@ -14,6 +14,7 @@ module.exports = {
       spacing: {
         '6.5': '1.625rem',
         '2.5': '0.625rem',
+        '400': '25rem',
         
       },
       maxHeight: {
@@ -62,6 +63,7 @@ module.exports = {
       },
       borderRadius: {
         'lg-10': '10px',
+        'lg-50': '50px',
       },
       
       fontSize: {

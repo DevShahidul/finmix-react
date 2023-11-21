@@ -5,3 +5,5 @@ export {default as FacebookIcon} from "./facebook";
 export {default as GoogleIcon} from "./google";
 export {default as MacIcon} from "./mac";
 export {default as Password} from "./password";
+export {default as SearchIcon} from "./search";
+export {default as NotificationIcon} from "./notification";
