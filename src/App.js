@@ -2,7 +2,7 @@ import {Login, Signup, PassReset, Success, Home} from "./pages";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <div className="">
+    <div className="m-0 p-0">
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />

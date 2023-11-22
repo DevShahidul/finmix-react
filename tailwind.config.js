@@ -15,6 +15,7 @@ module.exports = {
         '6.5': '1.625rem',
         '2.5': '0.625rem',
         '400': '25rem',
+        '33': '33.333%',
         
       },
       maxHeight: {
@@ -41,6 +42,7 @@ module.exports = {
           'secondary-100':'#C4CEFE',
           'secondary-200':'#B9B9B9',
           'secondary-300':'#6F6F6F',
+          'secondary-400':'#F5F6FA',
         },
         'blue':{
           DEFAULT:'#4465FF',
@@ -54,7 +56,11 @@ module.exports = {
           'gradient-50':'#F7C01D',
           'gradient-100':'#FF6C39',
         },
-        'red':'#FF5050',
+
+        'red':{
+          DEFAULT:'#FF5050',
+          '5':'#FF5050',
+        },
         'border':{
           DEFAULT:'#DDE1E5',
           'check':'#99A6B9',
@@ -68,9 +74,14 @@ module.exports = {
       
       fontSize: {
         13: '0.813rem',
+        9: '0.563rem',
       },
       padding: {
         '137': '8.563rem',
+        '30': '1.875rem',
+      },
+      letterSpacing: {
+        0.9: '0.056em',
       }
 
     },

@@ -1,10 +1,11 @@
 import React from 'react'
-import { Header } from '../../component';
+import { Header, Sideber } from '../../component';
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-6 bg-gray-secondary-400">
         < Header />
+        < Sideber />
     </div>
   )
 }
