@@ -38,6 +38,7 @@ module.exports = {
         'gray':{
           DEFAULT:'#E8EFF6',
           'secondary':'#C4C4C4',
+          'secondary-5':'#F2F4FB',
           'secondary-50':'#F2F6FA',
           'secondary-100':'#C4CEFE',
           'secondary-200':'#B9B9B9',
@@ -79,9 +80,16 @@ module.exports = {
       padding: {
         '137': '8.563rem',
         '30': '1.875rem',
+        '18': '1.125rem', //18px,
+        '2.5': '0.625rem',
+        '1.5': '0.75rem',
+        '0.5': '0.375rem',
       },
       letterSpacing: {
         0.9: '0.056em',
+      },
+      opacity: {
+        '15': '0.15',
       }
 
     },
