@@ -13,9 +13,11 @@ module.exports = {
     extend: {
       spacing: {
         '6.5': '1.625rem',
+        '30': '1.625rem',
         '2.5': '0.625rem',
         '400': '25rem',
         '33': '33.333%',
+        '30': '1.875rem', //30px
         
       },
       maxHeight: {
@@ -79,7 +81,6 @@ module.exports = {
       },
       padding: {
         '137': '8.563rem',
-        '30': '1.875rem',
         '18': '1.125rem', //18px,
         '2.5': '0.625rem',
         '1.5': '0.75rem',

@@ -6,6 +6,20 @@
   font-style: normal;
   font-display: swap;
 }
+::-webkit-scrollbar {
+  width: 2px;
+  height: var(--scroll-thumn-size);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: var(--scrollnbar-radius);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gainsboro;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @tailwind base;
 @tailwind components;
