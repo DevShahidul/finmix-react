@@ -38,7 +38,7 @@ const Login = () => {
               <Checkbox label="Remember me"/>
               <a className="text-blue-50 text-13 leading-5" href="index.html">Forgot Password ?</a>
             </div>
-            <Button className="my-7" text="Login"/>
+            <Button className="bg-green my-7 py-4 w-full" text="Login"/>
           </from>
           <div className="relative mb-3 text-center before:content-[''] before:w-full before:h-px before:absolute before:left-0 before:top-1/2  before:bg-gray-secondary">
             <span className="relative z-10 bg-white px-5 text-dark-text font-normal leading-5">or Login with</span>

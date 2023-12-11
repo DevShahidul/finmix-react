@@ -28,7 +28,7 @@ const PassReset = () => {
           <p className="text-dark-text text-sm font-normal leading-6 mb-10">Have no fear, help is here. Enter the email address that you wish to reset the password for and we'll send you an email with the instructions</p>
           <from>
             <Input type="email" label="Email" icon={< EmailIcon />} name="email" id="email" placeholder="Enter email address"  />
-            <Button className=" w-28" text="Reset"/>
+            <Button className="bg-green py-4 w-28" text="Reset"/>
           </from>
           <p className="text-dark-text text-13 leading-5 mt-7">Already a user?<Link className="text-green" to="/success">Log in here</Link> </p>
         </div>

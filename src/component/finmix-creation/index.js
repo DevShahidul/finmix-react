@@ -10,7 +10,7 @@ const FinmixCreation = () => {
             <h4 className="text-base font-bold text-theme mb-2.5">New Finmix Creation..</h4>
             <p className="text-13 text-dark-text font-normal leading-5">There easy three step to  create Finmix </p>
             <div className="px-4 mt-5">
-                < Button className=" text-sm px-0 py-2 leading-4" text="Create Finmix" />
+                < Button className="bg-green text-sm px-5 py-9 leading-4" text="Create Finmix" />
             </div>
         </div>
     </div>
