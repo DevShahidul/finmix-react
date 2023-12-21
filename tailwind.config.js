@@ -43,6 +43,7 @@ module.exports = {
           DEFAULT:'#000077',
           'title':'#2D405A',
           'body':'#56606D',
+          'body-50':'#545A5B',
           'text':'#79828D',
         },
         'sky':'#DBF5E7',
@@ -52,6 +53,7 @@ module.exports = {
           'secondary-1':'#DEE8F1',
           'secondary-5':'#F2F4FB',
           'secondary-50':'#F2F6FA',
+          'secondary-60':'#F8F8F8',
           'secondary-100':'#C4CEFE',
           'secondary-200':'#B9B9B9',
           'secondary-300':'#6F6F6F',
@@ -90,12 +92,15 @@ module.exports = {
       },
       padding: {
         '137': '8.563rem',
-        '18': '1.125rem', //18px,
+        '18': '1.125rem', //18px
         '2.5': '0.625rem',
         '0.5': '0.375rem',
       },
       letterSpacing: {
         0.9: '0.056em',
+      },
+      lineHeight: {
+        '5.5': '1.375rem', //22px
       },
       opacity: {
         '15': '0.15',

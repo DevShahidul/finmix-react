@@ -1,55 +1,13 @@
 import React from 'react'
 import { AreaChart, XAxis, YAxis, CartesianGrid, Tooltip, Area, ResponsiveContainer} from 'recharts';
-    
+import {revenueData} from "../../data";
 
 const Chart = (props) => {
-  const data = [
-    {
-      "name": "Jan",
-      "Total": 100,
-    },
-    {
-      "name": "Feb",
-      "Total": 380,
-    },
-    {
-      "name": "Mar",
-      "Total": 200,
-    },
-    {
-      "name": "Apr",
-      "Total": 500,
-    },
-    {
-      "name": "May",
-      "Total": 450,
-    },
-    {
-      "name": "Jun",
-      "Total": 750,
-    },
-    {
-      "name": "Jul",
-      "Total": 400,
-    },
-    {
-      "name": "Aug",
-      "Total": 300,
-    },
-    {
-      "name": "Sep",
-      "Total": 700,
-    },
-    {
-      "name": "Oct",
-      "Total": 290,
-    }
-  ]
   const {hideXAxis, hideYAxis, verticalDasharray, horizontalDasharray} = props;
   return (
     <div className="relative pb-[40%] h-0">
       <ResponsiveContainer width="100%" style={{position: "absolute", left: "0"}}>
-        <AreaChart data={data}
+        <AreaChart data={revenueData}
           margin={{ top: 10, right: 2, left: -20, bottom: 0 }}>
           <defs>
             <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
