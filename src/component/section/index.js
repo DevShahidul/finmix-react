@@ -34,9 +34,9 @@ const Section = () => {
     }
   return (
     <div className="md:ml-[240px] xl:flex items-start justify-between pt-29 z-10">
-        <div className="w-full xl:w-1/2 mr-30">
+        <div className="w-full xl:w-1/2 md:mr-30">
             <div className="bg-white rounded-lg-20 px-4 xl:px-5 2xl:px-30 py-30 mb-30 w-full">
-                <div className="flex items-center justify-between mb-5">
+                <div className="flex items-center justify-between mb-5 flex-wrap">
                     <div className="flex items-center justify-center">
                         <figure className="flex items-center justify-center rounded-full w-10 h-10 bg-gradient-to-b from-green-gradient-light to-green-gradient-secondary drop-shadow-3xl">
                             <img src={Money} alt="MoneyBag"/>
@@ -44,7 +44,7 @@ const Section = () => {
                         <div className="flex items-end">
                             <div className="mx-9.5">
                                 <h3 className="text-11 font-normal leading-5 text-dark-text">Portfolio</h3>
-                                <h2 className="font-popins text-3xl font-bold text-dark-title">$40,950</h2>
+                                <h2 className="font-popins text-xl sm:text-2xl lg:text-3xl font-bold text-dark-title">$40,950</h2>
                             </div>
                             <h3 className=" font-popins text-13 font-medium leading-5 text-green-secondary-light ">+ 15.94(34.18%)</h3>
                         </div>
@@ -68,10 +68,10 @@ const Section = () => {
                     </svg>} className="bg-blue-gradient-60 py-2 px-4 flex items-center" />
                 </div>
                 <div className="px-4 xl:px-5 2xl:px-30">
-                    <FinmixDfv />
-                    <FinmixDfv />
-                    <FinmixDfv />
-                    <FinmixDfv className="border-b-0" />
+                    <FinmixDfv title="DFV/GME" text="ARK Innovation ETF by approximate holdings" />
+                    <FinmixDfv title="mandelbrot / wsb-MPT" text="MPT for the most popular wallstreetbets stocks" />
+                    <FinmixDfv title="enombic / YC" text="The YC Index" />
+                    <FinmixDfv title="jake / main" text="weekly recurring" className="border-b-0" />
                 </div>
                 <div className="py-4 border-t border-gray-secondary-1 text-center">
                     <div className="inline-block">
@@ -91,10 +91,10 @@ const Section = () => {
                     <a href="index.html" className=" text-sm font-semibold leading-4 text-green">See all Features</a>
                 </div>
                 <div className="px-4 xl:px-5 2xl:px-30">
-                    <FinmixDfv />
-                    <FinmixDfv />
-                    <FinmixDfv />
-                    <FinmixDfv className="border-b-0" />
+                    <FinmixDfv title="DFV/GME" text="ARK Innovation ETF by approximate holdings" />
+                    <FinmixDfv title="DFV/GME" text="ARK Innovation ETF by approximate holdings" />
+                    <FinmixDfv title="DFV/GME" text="ARK Innovation ETF by approximate holdings" />
+                    <FinmixDfv title="DFV/GME" text="ARK Innovation ETF by approximate holdings" className="border-b-0" />
                 </div>
                 <div className="py-4 border-t border-gray-secondary-1 text-center ">
                     <div className="inline-block">
@@ -112,7 +112,7 @@ const Section = () => {
         <div className="w-full xl:w-1/2 bg-white rounded-lg-20 shadow-shadow-feed h-full">
             <div className="px-4 xl:px-5 2xl:px-30 py-5 mt-30 xl:mt-0 ">
                 <div className="flex items-center justify-between border-b pb-4 mb-4">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-wrap items-center gap-4">
                         <h4 className="text-lg font-bold text-dark-title">Feed</h4>
                         <Switch />
                         <h4 className="text-lg font-bold text-dark-title">Leaderboard</h4>

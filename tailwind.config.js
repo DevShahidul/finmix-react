@@ -111,7 +111,10 @@ module.exports = {
       },
       boxShadow: {
         'shadow-feed': '0 2px 20px 0px rgba(14, 112, 74, 0.06)',
-      }
+      },
+      screens: {
+        'ex-sm': '460px',
+      },
 
     },
   },

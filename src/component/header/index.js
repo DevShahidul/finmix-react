@@ -7,11 +7,13 @@ import MaskImg from "../../assets/img/mask.jpg";
 
 const Header = () => {
   return (
-    <div className="w-full flex items-center justify-between fixed z-20 bg-gray-secondary-400 -ml-6">
-      <div className=" bg-white w-[240px] flex items-center justify-center h-29">
+    <div className="w-full md:flex items-center justify-between fixed z-20 bg-gray-secondary-400 -ml-6">
+      <div className=" bg-white w-[240px] hidden md:flex items-center justify-center h-29">
         <img src={Finmix} alt="LogoIcon"/>
       </div>
-      <div className=" flex items-center justify-between py-30 w-[calc(100%-300px)] mr-auto ml-30">
+      <div className=" flex items-center justify-between px-6 md:px-0 py-30 w-full md:w-[calc(100%-300px)] mr-auto md:ml-30">
+        <button className="md:hidden cursor-pointer relative w-6 h-0.5 bg-dark-body before:w-full before:h-full before:content-[''] before:absolute before:top-2 before:left-0 before:bg-dark-body after:w-full after:h-full after:content-[''] after:absolute after:bottom-2 after:left-0 after:bg-dark-body"></button>
+
         < Search/>
         <div className="flex items-center justify-center gap-5 ml-auto">
           {< Notification icon={< MessageIcon />} text="2"/>}

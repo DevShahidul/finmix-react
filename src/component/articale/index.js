@@ -12,7 +12,7 @@ const Articale = (props) => {
         <div className="flex items-center justify-between max-h-screen"> 
             <div className="flex items-center gap-4">
                 <img src={author?.avater} alt="Avaterlogo"/>
-                <div className="flex items-end ">
+                <div className=" text-center ex-sm:flex items-end ">
                     <div>
                         <h5 className="text-base font-bold text-dark-title">{author?.name}</h5>
                         <p className="text-13 font-normal leading-5.5 text-dark-text font-popins">{author?.email}</p>
@@ -31,7 +31,7 @@ const Articale = (props) => {
         <h4 className="text-lg font-medium text-dark-title leading-normal mt-5">{title}</h4>
         <p className="text-sm font-normal leading-6 text-dark-body mt-4">{description}<a className=" text-green font-semibold ml-2" href={slug}>Read More</a></p>
         <img className="mt-30 w-full" src={thumbnail} alt='HeroImage'/>
-        <div className="flex items-center gap-10 mt-5">
+        <div className="flex flex-wrap items-center gap-10 mt-5">
             <a href="index.html" className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
                     <path d="M1.7 16H2.55V5.05263H1.7C1.24913 5.05263 0.81673 5.23007 0.497918 5.54593C0.179107 5.86178 0 6.29016 0 6.73684V14.3158C0 14.7625 0.179107 15.1909 0.497918 15.5067C0.81673 15.8226 1.24913 16 1.7 16ZM15.3 5.05263H9.35L10.3037 2.21642C10.3888 1.9633 10.412 1.69376 10.3713 1.43003C10.3307 1.16629 10.2274 0.915885 10.0699 0.699448C9.91247 0.483011 9.70537 0.30673 9.46567 0.185125C9.22597 0.0635195 8.96055 6.91476e-05 8.69125 0H8.5L4.25 4.57937V16H13.6L16.9252 8.76126L17 8.42105V6.73684C17 6.29016 16.8209 5.86178 16.5021 5.54593C16.1833 5.23007 15.7509 5.05263 15.3 5.05263Z" fill="#14B19E"/>
