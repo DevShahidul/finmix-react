@@ -7,7 +7,7 @@ export {default as Sideber} from "./sideber";
 export {default as Search} from "./search";
 export {default as FinmixCreation} from "./finmix-creation";
 export {default as Section} from "./section";
-export {default as FinmixDfv} from "./finmix_dfv";
+export {default as FinmixCard} from "./finmix_card";
 export {default as Chart} from "./chart";
 export {default as Switch} from "./switch";
 export {default as SelectDropdown} from "./select-dropdown";

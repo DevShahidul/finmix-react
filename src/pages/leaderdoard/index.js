@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Section, Sideber } from '../../component';
 
-const Home = () => {
+const Leaderboard = () => {
   return (
     <div className="px-4 sm:px-6 bg-gray-secondary-400 min-w-[320px]">
         < Header />
@@ -11,4 +11,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Leaderboard;
